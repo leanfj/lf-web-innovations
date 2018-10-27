@@ -1,0 +1,44 @@
+#hero
+    height: 450px
+    margin-top: 98px
+    .slide-section
+        background-color: #f3f3f3
+        height: 100%
+        background-image: url('../img/bg-hero-01.jpg')
+        background-position: center
+        background-size: cover
+        background-repeat: no-repeat
+        background-attachment: fixed
+        position: relative
+        &::before
+            content: ''
+            display: block
+            height: 100%
+            width: 100%
+            background-color: #000000
+            opacity: 0.5
+        .slide-item
+            position: absolute
+            padding: 0 20px
+            text-align: center
+            top: 0
+            left: 0
+            right: 0
+            overflow: hidden
+            transition: opacity 1s
+            display: flex
+            justify-content: center
+            flex-direction: column
+            align-items: center
+            user-select: none
+            opacity: 0
+            height: 0
+            color: #ffffff
+            &__title
+                font-size: 2.5rem
+                margin-bottom: 20px
+            &__text
+                font-size: 1.2rem
+        .slide-item--active
+            height: 100%
+            opacity: 1

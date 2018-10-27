@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="12.635615"
+   height="12.635615"
+   viewBox="0 0 3.3431732 3.3431733"
+   version="1.1"
+   id="svg53"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="logo-behance.svg">
+  <defs
+     id="defs47" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="-8.8692224"
+     inkscape:cy="7.0751439"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata50">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-103.32841,-146.82842)">
+    <g
+       transform="matrix(0.00746244,0,0,0.00746244,103.32841,146.58962)"
+       style="fill:#ececec;fill-opacity:1;stroke:none"
+       id="use34004">
+      <title
+         id="title22667">Behance Square</title>
+      <path
+         d="m 186.5,293 c 0,19.3 -14,25.4 -31.2,25.4 h -45.1 v -52.9 h 46 c 18.6,0.1 30.3,7.8 30.3,27.5 z m -7.7,-82.3 c 0,-17.7 -13.7,-21.9 -28.9,-21.9 h -39.6 v 44.8 H 153 c 15.1,0 25.8,-6.6 25.8,-22.9 z m 132.3,23.2 c -18.3,0 -30.5,11.4 -31.7,29.7 h 62.2 c -1.7,-18.5 -11.3,-29.7 -30.5,-29.7 z M 448,80 v 352 c 0,26.5 -21.5,48 -48,48 H 48 C 21.5,480 0,458.5 0,432 V 80 C 0,53.5 21.5,32 48,32 h 352 c 26.5,0 48,21.5 48,48 z M 271.7,185 h 77.8 v -18.9 h -77.8 z m -43,110.3 c 0,-24.1 -11.4,-44.9 -35,-51.6 17.2,-8.2 26.2,-17.7 26.2,-37 0,-38.2 -28.5,-47.5 -61.4,-47.5 H 68 v 192 h 93.1 C 196,351 228.7,334.3 228.7,295.3 Z M 380,280.5 c 0,-41.1 -24.1,-75.4 -67.6,-75.4 -42.4,0 -71.1,31.8 -71.1,73.6 0,43.3 27.3,73 71.1,73 33.2,0 54.7,-14.9 65.1,-46.8 h -33.7 c -3.7,11.9 -18.6,18.1 -30.2,18.1 -22.4,0 -34.1,-13.1 -34.1,-35.3 h 100.2 c 0.1,-2.3 0.3,-4.8 0.3,-7.2 z"
+         id="path22669"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

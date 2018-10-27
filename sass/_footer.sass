@@ -1,0 +1,90 @@
+footer
+    background-color: #425762ff
+    padding-top: 10px
+    color: #ececec
+.social-media
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    width: 100%
+    &::after
+        height: 3px
+        width: 100%
+        content: ''
+        display: block
+        border: none
+        background-color: #cecece
+        order: 4
+    img
+        margin: 10px auto
+        @media screen and (max-width: 427px)
+            order: 1           
+    &--left
+        list-style: none
+        display: flex
+        align-items: flex-end
+        justify-content: space-around
+        width: 120px
+        @media screen and (max-width: 427px)
+            order: 2     
+        li
+            a
+                img
+                    height: 30px
+                    width: 30px
+    &--right
+        list-style: none
+        display: flex
+        align-items: flex-end
+        justify-content: space-around
+        width: 120px
+        @media screen and (max-width: 427px)
+            order: 3     
+        li
+            a
+                img
+                    height: 30px
+                    width: 30px
+.divisor
+    height: 3px
+    width: 100%
+    content: ''
+    display: block
+    border: none
+    background-color: #cecece
+.contatos
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    width: 100%
+    padding: 55px 0 0 0  
+    &::after
+        height: 3px
+        width: 100%
+        margin-top: 10px
+        content: ''
+        display: block
+        border: none
+        background-color: #cecece  
+    &__item
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-around
+        height: 100px
+        text-align: center
+        margin: 0 auto 55px auto
+        img
+            height: 20px
+        span
+            display: block
+            font-size: .8rem
+            text-transform: uppercase
+            font-weight: bold
+        a
+            font-size: .9rem
+            color: #ececec
+.direitos
+    margin: 0 auto
+    padding: 25px 5px
+    text-align: center
