@@ -9,7 +9,7 @@ body {
   font-family: 'Comfortaa', cursive; }
 
 .container {
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -148,6 +148,58 @@ header {
       height: 100%;
       opacity: 1; }
 
+.servicos {
+  padding-top: 98px; }
+  .servicos h3 {
+    text-align: center;
+    font-size: 2rem; }
+
+.cards {
+  margin: 20px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+  .cards__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto; }
+    .cards__item img {
+      height: 100px; }
+    .cards__item h4 {
+      margin: 10px 0; }
+    .cards__item p {
+      font-size: .9rem;
+      text-align: justify; }
+
+.tecnologias {
+  background-color: #b3b3b361;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 20px; }
+  @media screen and (max-width: 427px) {
+    .tecnologias {
+      flex-direction: column; } }
+  .tecnologias p {
+    font-size: 1.1rem;
+    margin: 0 20px; }
+  .tecnologias__icons {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 20px; }
+    .tecnologias__icons img {
+      height: 35px;
+      margin: 5px; }
+
 footer {
   background-color: #425762ff;
   padding-top: 10px;
@@ -158,6 +210,9 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%; }
+  @media screen and (max-width: 427px) {
+    .social-media {
+      flex-direction: column; } }
   .social-media::after {
     height: 3px;
     width: 100%;
@@ -179,7 +234,8 @@ footer {
     width: 120px; }
     @media screen and (max-width: 427px) {
       .social-media--left {
-        order: 2; } }
+        order: 2;
+        margin: 0 auto; } }
     .social-media--left li a img {
       height: 30px;
       width: 30px; }
@@ -191,7 +247,8 @@ footer {
     width: 120px; }
     @media screen and (max-width: 427px) {
       .social-media--right {
-        order: 3; } }
+        order: 3;
+        margin: 0 auto; } }
     .social-media--right li a img {
       height: 30px;
       width: 30px; }

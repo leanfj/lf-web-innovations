@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3.8747137mm"
+   height="4.1767845mm"
+   viewBox="0 0 3.8747136 4.1767844"
+   version="1.1"
+   id="svg5251"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="angular.svg">
+  <defs
+     id="defs5245" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="27.745626"
+     inkscape:cx="7.3222839"
+     inkscape:cy="7.8931728"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5248">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-103.06265,-146.41162)">
+    <g
+       id="use25581"
+       style="fill:#808080;stroke:none;stroke-width:7.50863171"
+       transform="matrix(0.00932318,0,0,0.00932318,103.06265,146.11328)">
+      <title
+         id="title5477">Angular</title>
+      <path
+         inkscape:connector-curvature="0"
+         id="path5479"
+         d="m 169.7,268.1 h 76.2 L 207.8,176.5 Z M 207.8,32 0,106.4 l 31.8,275.7 176,97.9 176,-97.9 31.8,-275.7 z M 338,373.8 H 289.4 L 263.2,308.4 H 152.6 l -26.2,65.4 H 77.7 L 207.8,81.5 Z" />
+    </g>
+  </g>
+</svg>
