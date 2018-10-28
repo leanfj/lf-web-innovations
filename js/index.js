@@ -29,3 +29,31 @@ $menuMobileIcon.addEventListener('click', () => {
     item.classList.toggle('span-line--active');
   });
 });
+
+(function() {
+  'use strict';
+
+  const section = document.querySelectorAll('.section');
+  const sections = {};
+  let i = 0;
+
+  section.forEach(item => {
+    sections[item.id] = item.offsetTop - 98;
+  });
+
+  window.onscroll = function() {
+    const scrollPosition =
+      document.documentElement.scrollTop || document.body.scrollTop;
+
+    for (i in sections) {
+      if (sections[i] <= scrollPosition) {
+        document
+          .querySelector('.menu__item--active')
+          .setAttribute('class', ' ');
+        document
+          .querySelector('a[href*=' + i + ']')
+          .setAttribute('class', 'menu__item--active');
+      }
+    }
+  };
+})();
