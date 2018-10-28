@@ -44,11 +44,24 @@
         align-items: center
         width: 100vw
         height: 100vh
-    .menu__item
+    li
         > a
             color: #ffffff
             font-size: 1.1rem
             font-weight: bold
+            text-decoration: none
+            text-transform: uppercase
+            &:after
+                content: ""
+                display: block
+                width: 0
+                height: 3px
+                margin-top: 5px
+                background: linear-gradient(90deg, rgba(57, 200, 172, 0.418848) 0%, rgba(48, 157, 213, 0.397906) 100%)
+                transition: width .15s
+            &:hover
+                &:after
+                    width: 100%
 
 
   
