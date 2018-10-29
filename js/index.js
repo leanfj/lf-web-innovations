@@ -38,7 +38,7 @@ $menuMobileIcon.addEventListener('click', () => {
   let i = 0;
 
   section.forEach(item => {
-    sections[item.id] = item.offsetTop - 98;
+    sections[item.id] = item.offsetTop;
   });
 
   window.onscroll = function() {
