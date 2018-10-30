@@ -28,11 +28,19 @@
                 content: ''
                 background-color: #5cd2ba
                 width: 100%
+                transform: scale(0)
                 height: 3px
                 margin-top: 5px
+                margin-left: auto
+                margin-right: auto
+                transition: transform cubic-bezier(0.18, 0.89, 0.32, 1.28) .5s
+        &:hover
+            h4 
+                &:after
+                    transform: scale(1)
         p
             font-size: .9rem
-            text-align: justify
+            text-align: center
 .tecnologias
     background-color: #b3b3b361
     display: flex
