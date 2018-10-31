@@ -221,7 +221,8 @@ a.menu__item--active:after {
       transform: scale(1); }
     .cards__item p {
       font-size: .9rem;
-      text-align: center; }
+      text-align: center;
+      line-height: 1.5; }
 
 .tecnologias {
   background-color: #b3b3b361;
@@ -267,10 +268,8 @@ a.menu__item--active:after {
         color: #3bc6ad; }
 
 .thumbs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%; }
+  max-width: 900px;
+  margin: 0 auto; }
   .thumbs__item {
     height: 185px;
     width: 300px;
@@ -348,7 +347,7 @@ a.menu__item--active:after {
     margin-top: 20px;
     margin-left: auto;
     text-align: justify;
-    max-width: 60%;
+    max-width: 75%;
     padding: 20px; }
     @media screen and (max-width: 768px) {
       .sobre__text {

@@ -103,31 +103,27 @@
         </section>
         <section class="portifolio section" id="portifolio">
             <h3>Nossos trabalhos</h3>
-            <ul class="portifolio-navigation">
-                <li class="portifolio-navigation__item portifolio-navigation__item--active">Todos</li>
-                <li class="portifolio-navigation__item">Gráfico</li>
-                <li class="portifolio-navigation__item">Web</li>
-                <li class="portifolio-navigation__item">Social Media</li>
+            <ul class="portifolio-navigation filters-button-group">
+                <li class="portifolio-navigation__item portifolio-navigation__item--active" data-filter="*">Todos</li>
+                <li class="portifolio-navigation__item" data-filter=".js-grafico">Gráfico</li>
+                <li class="portifolio-navigation__item" data-filter=".js-social-media">Social Media</li>
+                <li class="portifolio-navigation__item " data-filter=".js-web">Web</li>
             </ul>
-            <div class="container">
-                <div class="thumbs">
-                    <div class="thumbs__item">
-                    </div>
-                    <div class="thumbs__item">
-                        <img src="" alt="">
-                    </div>
-                    <div class="thumbs__item">
-                        <img src="" alt="">
-                    </div>
-                    <div class="thumbs__item">
-                        <img src="" alt="">
-                    </div>
-                    <div class="thumbs__item">
-                        <img src="" alt="">
-                    </div>
-                    <div class="thumbs__item">
-                        <img src="" alt="">
-                    </div>
+
+
+            <div class="thumbs">
+
+                <div class="thumbs__item js-web">
+                </div>
+                <div class="thumbs__item js-grafico">
+                </div>
+                <div class="thumbs__item js-web">
+                </div>
+                <div class="thumbs__item js-social-media">
+                </div>
+                <div class="thumbs__item js-web">
+                </div>
+                <div class="thumbs__item js-grafico">
                 </div>
             </div>
         </section>
@@ -204,6 +200,7 @@
         </div>
     </footer>
     <!-- FIM FOOTER -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
 
