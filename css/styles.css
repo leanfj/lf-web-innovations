@@ -268,7 +268,10 @@ a.menu__item--active:after {
         color: #3bc6ad; }
 
 .thumbs {
-  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 960px;
   margin: 0 auto; }
   .thumbs__item {
     height: 185px;
@@ -292,12 +295,12 @@ a.menu__item--active:after {
       background-size: contain;
       background-repeat: no-repeat; }
     .thumbs__item:nth-child(2) {
-      background-image: url("../img/thumb.png");
+      background-image: url("../img/logo.svg");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
     .thumbs__item:nth-child(3) {
-      background-image: url("../img/thumb.png");
+      background-image: url("../img/cartao-visita-verde.svg");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
