@@ -21,9 +21,17 @@
     setTimeout(changeHeroText, 5000);
   }
 
+  //Menu Mobile
   let $menuMobileIcon = document.querySelector('.menu-icon');
 
-  $menuMobileIcon.addEventListener('click', () => {
+  $menuMobileIcon.addEventListener('click', toogleMobile);
+  let $itemsMenuMobile = document.querySelectorAll('.menu-mobile > li > a');
+
+  $itemsMenuMobile.forEach(item => {
+    item.addEventListener('click', toogleMobile);
+  });
+
+  function toogleMobile() {
     const $menuMobile = document.querySelector('.menu-mobile');
     $menuMobile.classList.toggle('menu-mobile--active');
 
@@ -31,7 +39,8 @@
     $menuMobileSpans.forEach(item => {
       item.classList.toggle('span-line--active');
     });
-  });
+  }
+
   //Estilo menu
   const section = document.querySelectorAll('.section');
   const sections = {};
@@ -56,6 +65,7 @@
       }
     }
   };
+
   //Portifolio ação
   let filtersElem = document.querySelectorAll('.portifolio-navigation__item');
 

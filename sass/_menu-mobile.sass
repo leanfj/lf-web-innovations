@@ -30,20 +30,22 @@
     position: absolute
     background-color: #000000c9
     top: 0
-    left: 0
+    left: -200px
     width: 0
-    height: 0
     z-index: 99
-    display: none
+    height: 100vh
+    display: flex
     list-style: none
+    flex-direction: column
+    justify-content: space-evenly
+    align-items: center
+    transition: width .3s
     &--active
-        +fadein(.2s)
-        display: flex
-        flex-direction: column
-        justify-content: space-evenly
-        align-items: center
+        // +fadein(.2s)
         width: 100vw
-        height: 100vh
+        left: 0
+        
+
     li
         > a
             color: #ffffff

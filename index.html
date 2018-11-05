@@ -154,24 +154,26 @@
         <section class="contato section" id="contato">
             <h3>Entre em Contato</h3>
             <div class="container">
-                <form action="/">
+                <form action="https://formspree.io/lfwebinnovations@gmail.com" method="POST">
                     <div class="form-group">
                         <label for="input-nome">Nome</label>
-                        <input type="text" name="nome" id="input-nome">
+                        <input type="text" name="name" id="input-nome">
                     </div>
                     <div class="form-group">
                         <label for="input-email">Email</label>
-                        <input type="email" name="email" id="input-email">
+                        <input type="email" name="_replyto" id="input-email">
                     </div>
                     <div class="form-group">
                         <label for="input-assunto">Assunto</label>
-                        <input type="text" name="assunto" id="input-assunto">
+                        <input type="text" name="_subject" id="input-assunto">
                     </div>
+                    <input type="hidden" name="_language" value="pt-BR" />
+                    <input type="text" name="_gotcha" style="display:none" />
                     <div class="form-group">
                         <label for="input-mensagem">Mensagem</label>
-                        <textarea name="mensagem" id="input-mensagem"></textarea>
+                        <textarea name="_format" id="input-mensagem"></textarea>
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" value="Send">Enviar</button>
 
                 </form>
                 <div class="contato-text">
@@ -188,15 +190,18 @@
         <div class="container">
             <div class="social-media">
                 <ul class="social-media--left">
-                    <li><a href="#"><img src="./img/logo-facebook.svg" alt="Link Página do Facebook"></a></li>
-                    <li><a href="#"><img src="./img/logo-twitter.svg" alt="Link Página do Twitter"></a></li>
-                    <li><a href="#"><img src="./img/logo-instagram.svg" alt="Link Página do Instagram"></a></li>
+                    <li><a href="https://www.facebook.com/LF-WEB-Innovations-156460061971929"><img src="./img/logo-facebook.svg"
+                                alt="Link Página do Facebook"></a></li>
+                    <li><a href="https://twitter.com/lfwebinnovatio1"><img src="./img/logo-twitter.svg" alt="Link Página do Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/leanfj86/"><img src="./img/logo-instagram.svg" alt="Link Página do Instagram"></a></li>
                 </ul>
                 <img src="./img/logo-branco-footer.svg" alt="Logo LF Web Innovations" class="logo-footer">
                 <ul class="social-media--right">
-                    <li><a href="#"><img src="./img/logo-behance.svg" alt="Link Página do Behance"></a></li>
-                    <li><a href="#"><img src="./img/logo-linkedin.svg" alt="Link Página do Linkedin"></a></li>
-                    <li><a href="#"><img src="./img/logo-whatsapp.svg" alt="Link Página do Whatsapp"></a></li>
+                    <li><a href="https://www.behance.net/leanfj4185"><img src="./img/logo-behance.svg" alt="Link Página do Behance"></a></li>
+                    <li><a href="https://www.linkedin.com/company/lf-web-innovations/"><img src="./img/logo-linkedin.svg"
+                                alt="Link Página do Linkedin"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521982739265"><img src="./img/logo-whatsapp.svg"
+                                alt="Link Página do Whatsapp"></a></li>
                 </ul>
             </div>
         </div>
@@ -205,12 +210,12 @@
                 <div class="contatos__item">
                     <img src="./img/email-icon.svg" alt="Ícone de Email">
                     <span>email</span>
-                    <a href="mail-to:contato@lfwebinnovations.com.br">contato@lfwebinnovations.com.br</a>
+                    <a href="mail-to:lfwebinnovations@gmail.com">contato@lfwebinnovations.com.br</a>
                 </div>
                 <div class="contatos__item">
                     <img src="./img/phone-icon.svg" alt="Ícone de Telefone">
                     <span>telefone</span>
-                    <a href="tel: +5521982739265">+55 21 98273-9265</a>
+                    <a href="tel:+5521982739265">+55 21 98273-9265</a>
                 </div>
                 <div class="contatos__item">
                     <img src="./img/location-icon.svg" alt="Ícone de Localiazação">
