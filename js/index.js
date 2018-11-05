@@ -113,4 +113,42 @@
       this.className += ' portifolio-navigation__item--active';
     });
   });
+
+  //ScroolReveal
+
+  //Animação de serviços
+  const $cards = document.querySelectorAll('.cards__item');
+  let delayItem = 200;
+  $cards.forEach(item => {
+    ScrollReveal({
+      reset: true
+    }).reveal(item, {
+      delay: (delayItem += 200)
+    });
+  });
+
+  //Animação como fazemos
+  const $techs = document.querySelectorAll('.tecnologias__icons > img');
+  let delayTechs = 100;
+  $techs.forEach(item => {
+    ScrollReveal({
+      reset: true,
+      distance: '60px'
+    }).reveal(item, {
+      delay: (delayTechs += 100),
+      origin: 'bottom'
+    });
+  });
+  //Animação sobre
+  const $sobreTextos = document.querySelectorAll('.sobre__text > p');
+  let delayTextos = 100;
+  $sobreTextos.forEach(item => {
+    ScrollReveal({
+      reset: true,
+      distance: '60px'
+    }).reveal(item, {
+      delay: (delayTextos += 100),
+      origin: 'right'
+    });
+  });
 })();
