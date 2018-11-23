@@ -137,6 +137,7 @@ a.menu__item--active:after {
     background-color: #f3f3f3;
     height: 100%;
     background-image: url("../img/bg-hero-01.jpg");
+    background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007907/lfwebinnovations/bg-hero-01.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -291,6 +292,7 @@ a.menu__item--active:after {
       background-color: #3bc6ad85; }
     .thumbs__item:nth-child(1) {
       background-image: url("../img/site-cliente-dayartdesign.png");
+      background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007932/lfwebinnovations/site-cliente-dayartdesign.png");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -306,31 +308,37 @@ a.menu__item--active:after {
       background-repeat: no-repeat; }
     .thumbs__item:nth-child(4) {
       background-image: url("../img/thumb.png");
+      background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007932/lfwebinnovations/thumb.png");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
     .thumbs__item:nth-child(5) {
       background-image: url("../img/site-cliente-poraque.png");
+      background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007932/lfwebinnovations/site-cliente-poraque.png");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
     .thumbs__item:nth-child(6) {
       background-image: url("../img/thumb.png");
+      background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007932/lfwebinnovations/thumb.png");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
     .thumbs__item:nth-child(7) {
       background-image: url("../img/site-cliente-estrela.png");
+      background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007932/lfwebinnovations/site-cliente-estrela.png");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
     .thumbs__item:nth-child(8) {
       background-image: url("../img/thumb.png");
+      background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007932/lfwebinnovations/thumb.png");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
     .thumbs__item:nth-child(9) {
       background-image: url("../img/site-cliente-restaurante.png");
+      background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007933/lfwebinnovations/site-cliente-restaurante.png");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -341,6 +349,7 @@ a.menu__item--active:after {
   .sobre:after {
     content: '';
     background-image: url("../img/sobre-bg.png");
+    background-image: url("https://res.cloudinary.com/djcebypsk/image/upload/v1543007933/lfwebinnovations/sobre-bg.png");
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
