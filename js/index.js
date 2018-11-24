@@ -66,8 +66,8 @@
     }
   };
 
-  //Portifolio ação
-  let filtersElem = document.querySelectorAll('.portifolio-navigation__item');
+  //Portfolio ação
+  let filtersElem = document.querySelectorAll('.portfolio-navigation__item');
 
   filtersElem.forEach(element => {
     element.addEventListener('click', function(event) {
@@ -93,7 +93,7 @@
   });
 
   // change is-checked class on buttons
-  let tagGroups = document.querySelectorAll('.portifolio-navigation__item');
+  let tagGroups = document.querySelectorAll('.portfolio-navigation__item');
 
   //Loop sobre item para atuar em cada elementos
   tagGroups.forEach(item => {
@@ -101,16 +101,16 @@
     item.addEventListener('click', function() {
       //Pego o elemento com a classe que ativa o estilo
       let itemAtivo = document.querySelector(
-        '.portifolio-navigation__item--active'
+        '.portfolio-navigation__item--active'
       );
       //Utilização do replace para remover a classe que ativa o estilo do item
       itemAtivo.className = itemAtivo.className.replace(
-        ' portifolio-navigation__item--active',
+        ' portfolio-navigation__item--active',
         ''
       );
 
       // Elemento que recebe o click recebe a classe que ativa
-      this.className += ' portifolio-navigation__item--active';
+      this.className += ' portfolio-navigation__item--active';
     });
   });
 
