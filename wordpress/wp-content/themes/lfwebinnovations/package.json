@@ -1,0 +1,27 @@
+{
+  "name": "lfwebinnovations",
+  "version": "1.0.0",
+  "description": "Site em WordPress para LF Web Innovations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leanfj/lf-web-innovations.git"
+  },
+  "keywords": [
+    "WordPress"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.9.4"
+  },
+  "author": "Leandro Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leanfj/lf-web-innovations/issues"
+  },
+  "homepage": "https://github.com/leanfj/lf-web-innovations#readme"
+}

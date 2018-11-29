@@ -1,0 +1,47 @@
+header
+    padding: 10px 0
+    width: 100%
+    background-color: #fff
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 999
+    box-shadow: 0px 1px 12px 1px #00000014    
+.logo
+    margin-right: 20px
+    &__texto
+        text-indent: -99999px
+        position: absolute
+    &__imagem
+        display: block
+        width: 100%
+        min-width: 150px
+.menu
+    display: flex
+    justify-content: space-between
+    width: 450px
+    list-style: none
+    @media screen and (max-width: 768px) 
+        display: none
+    a 
+        text-transform: uppercase
+        font-size: .9rem
+        text-decoration: none
+        color: #000
+        &:after
+            content: ""
+            display: block
+            height: 3px
+            margin-top: 5px
+            background: linear-gradient(90deg, rgba(57, 200, 172, 0.418848) 0%, rgba(48, 157, 213, 0.397906) 100%)
+            transform-origin: right
+            transform: scaleX(0)
+            transition: transform .3s,-webkit-transform .3s
+        &:hover
+            &:after
+                transform-origin: left
+                transform: scale(1)
+a.menu__item--active
+    &:after
+        transform-origin: left
+        transform: scale(1)
