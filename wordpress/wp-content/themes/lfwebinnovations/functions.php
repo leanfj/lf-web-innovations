@@ -1,5 +1,8 @@
 <?php
+//Ativação de funcionalidades do wordpress
+add_theme_support('post-thumbnails');
 
+//Carregamento de Script e CSS
 function lfwebinnovations_scripts() {
 
   wp_enqueue_style('lfwebinnovations-theme-styles', get_template_directory_uri() . '/css/styles.css','','1.0',false);
@@ -19,3 +22,25 @@ function lfwebinnovations_widgets_init() {
 
 }
 add_action( 'widgets_init', 'lfwebinnovations_widgets_init' );
+
+function theme_post_types(){
+	register_post_type(
+		'trabalhos',
+		array(
+			'labels' => array(
+				'name' => __('Trabalhos'),
+				'singular_name' => __('Trabalho')
+			),
+			'public' => true,
+			'has_archive' => true,
+			'menu_icon' => 'dashicons-hammer',
+			'supports' => array(
+				'title',
+				'thumbnail',
+				'page-attributes'
+			)
+		)
+	);
+}
+
+add_action('init', 'theme_post_types');

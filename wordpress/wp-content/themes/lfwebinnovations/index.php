@@ -53,6 +53,10 @@
         </section>
         <section class="portfolio section" id="portfolio">
             <h3>Nossos trabalhos</h3>
+
+            
+
+
             <ul class="portfolio-navigation filters-button-group">
                 <li class="portfolio-navigation__item portfolio-navigation__item--active" data-filter="js-all">Todos</li>
                 <li class="portfolio-navigation__item" data-filter="js-grafico">Gráfico</li>
@@ -63,24 +67,21 @@
 
             <div class="thumbs">
 
-                <div class="thumbs__item js-all js-web">
-                </div>
-                <div class="thumbs__item js-all js-grafico">
-                </div>
-                <div class="thumbs__item js-all js-grafico">
-                </div>
-                <div class="thumbs__item js-all js-social-media">
-                </div>
-                <div class="thumbs__item js-all js-web">
-                </div>
-                <div class="thumbs__item js-all js-grafico">
-                </div>
-                <div class="thumbs__item js-all js-web">
-                </div>
-                <div class="thumbs__item js-all js-social-media">
-                </div>
-                <div class="thumbs__item js-all js-web">
-                </div>
+                <?php query_posts('post_type=trabalhos')?>
+
+                <?php if(have_posts()) :?>
+
+                    <?php while(have_posts()) : the_post(); ?>
+                        <div class="thumbs__item js-all js-<?php the_field('tipo_servico'); ?>">
+                            <?php the_post_thumbnail();?>
+                        </div>
+
+                    <?php endwhile; ?>
+
+                <?php endif; ?>
+
+                <?php wp_reset_query(); ?>
+
             </div>
         </section>
         <section class="sobre section" id="sobre">
