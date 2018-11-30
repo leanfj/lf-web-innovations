@@ -31,7 +31,7 @@
                 <div class="contatos__item">
                     <img src="<?php bloginfo('template_directory'); ?>/img/email-icon.svg" alt="Ícone de Email">
                     <span>email</span>
-                    <a href="mailto:contato@lfwebinnnovations.com.br?Subject=Contato%20Via%20Site">contato@lfwebinnovations.com.br</a>
+                    <a href="mailto:<?php bloginfo('admin_email'); ?>?Subject=Contato%20Via%20Site"><?php bloginfo('admin_email'); ?></a>
                 </div>
                 <div class="contatos__item">
                     <img src="<?php bloginfo('template_directory'); ?>/img/phone-icon.svg" alt="Ícone de Telefone">
@@ -47,7 +47,7 @@
         </div>
         <div class="container">
             <div class="direitos">
-                <p> &copy; 2018 - LF Web Innovations - Todos os direitos reservados</p>
+                <p> &copy; <?php echo date('Y'); ?> - LF Web Innovations - Todos os direitos reservados</p>
             </div>
         </div>
     </footer>

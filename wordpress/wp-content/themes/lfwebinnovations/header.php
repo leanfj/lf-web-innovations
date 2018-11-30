@@ -26,7 +26,7 @@
     <meta property="og:title" content="LF Web Innovations">
     <meta property="og:url" content="http://www.lfwebinnovations.com.br">
     <meta property="og:image" content="http://www.lfwebinnovations.com.br/open-graph/og-image.jpg">
-    <title><?php bloginfo('name'); ?></title>
+    <title><?php bloginfo('name'); echo "|"; bloginfo('description'); ?></title>
 
     <?php wp_head(); ?>
 </head>
@@ -36,7 +36,7 @@
         <div class="container ">
             <div class="logo">
                 <h1 class="logo__texto">Lf Web Innovations - Desenvolvimento Web</h1>
-                <img class="logo__imagem" src="<?php bloginfo('template_url'); ?>/img/logo-escuro.svg" alt="Logotipo LF Web innovations">
+                <a href="<?php bloginfo('url'); ?>"><img class="logo__imagem" src="<?php bloginfo('template_url'); ?>/img/logo-escuro.svg" alt="Logotipo LF Web innovations"></a>
 
             </div>
             <nav>
