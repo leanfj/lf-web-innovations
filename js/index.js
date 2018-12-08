@@ -55,7 +55,7 @@
       document.documentElement.scrollTop || document.body.scrollTop;
 
     for (i in sections) {
-      if (sections[i] <= scrollPosition) {
+      if (sections[i] - 98 <= scrollPosition) {
         document
           .querySelector('.menu__item--active')
           .setAttribute('class', ' ');
@@ -64,8 +64,18 @@
           .setAttribute('class', 'menu__item--active');
       }
     }
+
+
   };
 
+  const $header = document.querySelector('#header');
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 0) {
+      $header.classList.add('toFixed');
+    } else {
+      $header.classList.remove('toFixed');
+    }
+  })
   //Portfolio ação
   let filtersElem = document.querySelectorAll('.portfolio-navigation__item');
 

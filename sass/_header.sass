@@ -1,21 +1,32 @@
+@import animations
+
 header
     padding: 10px 0
     width: 100%
     background-color: #fff
+    z-index: 999
+    transition: all 1s
+    box-shadow: 0px 1px 12px 1px #00000014
+    .container
+        transition: all 1s
+        height: 100%
+.toFixed
     position: fixed
     top: 0
     left: 0
-    z-index: 999
-    box-shadow: 0px 1px 12px 1px #00000014    
+    height: 70px
+    +menuFade(.5s)
 .logo
     margin-right: 20px
+    transition: all 1s
+    height: 100%
     &__texto
         text-indent: -99999px
         position: absolute
     &__imagem
         display: block
-        width: 100%
-        min-width: 150px
+        transition: all 1s
+        height: 100%
 .menu
     display: flex
     justify-content: space-between
