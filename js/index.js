@@ -131,7 +131,6 @@
   let delayItem = 200;
   $cards.forEach(item => {
     ScrollReveal({
-      reset: true
     }).reveal(item, {
       delay: (delayItem += 200)
     });
@@ -142,7 +141,6 @@
   let delayTechs = 100;
   $techs.forEach(item => {
     ScrollReveal({
-      reset: true,
       distance: '60px'
     }).reveal(item, {
       delay: (delayTechs += 100),
@@ -154,7 +152,6 @@
   let delayTextos = 100;
   $sobreTextos.forEach(item => {
     ScrollReveal({
-      reset: true,
       distance: '60px'
     }).reveal(item, {
       delay: (delayTextos += 100),
